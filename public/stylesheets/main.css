@@ -1,0 +1,41 @@
+a.nav-link, #username {
+    font-weight: bolder;
+    color: silver;
+    padding-left:30px;
+    padding-right:30px;
+  }
+
+
+
+
+body{
+  -webkit-transform: scale(1);
+  -moz-transform: scale(1);
+  transform: scale(1);
+  border-radius: 35px;
+  border: 15px solid #b8c0ad;
+  padding: 20px;
+  width: 1500px;
+  height: auto;
+  margin-left: 200px;
+  background-color: rgb(249, 250, 244);
+}
+
+h1 {
+  color:  rgb(53, 155, 155);
+}
+
+
+.card {
+  height:auto;
+  width: 500px;
+  background-color: #edfcfc;
+  padding: 20;
+  -webkit-border-radius: 10px;
+  -moz-border-radius: 10px;
+  border-radius: 10px;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14), 0 1px 10px 0 rgba(0, 0, 0, 0.12), 0 2px 4px -1px rgba(0, 0, 0, 0.3);
+  display:inline-block;
+  margin: 10px;
+  margin-bottom: 30px;
+}
