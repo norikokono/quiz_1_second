@@ -92,8 +92,8 @@ router.get("/", (req, res) => {
 
     if (username) {
       const cluck = {...req.body}
-      quack.username = username
-      quack.updatedAt = new Date()
+      cluck.username = username
+      cluck.updatedAt = new Date()
       
       knex("clucks")
         .where("id", id)

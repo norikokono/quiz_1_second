@@ -20,23 +20,24 @@
         <a class="nav-link" href="/clucks/new">New</a>
       </button>
     </form>
+    <h1>🐓🐓🐓</h1>
+  
     <div>
-
     <% if (username) { %>
     <div class="d-flex">
       <span class="navbar-text mr-2" id="username">
-        Logged in as: <%= username %>
+        <h2 style="margin-right:30px; margin-top:10px;";
+      }>Hello! <%= username %></h2>
       </span>
       
       <form action="/sign_out" method="POST">
         <input type="hidden" name="_method" value="DELETE" />
-        <input type="submit" class="btn btn-danger" value="Sign Out" />
+        <input type="submit" class="btn btn-danger" style="margin-right:20px; margin-top:20px" value="Sign Out" />
       </form>
     </div>
     <% } else { %>
       <a href="/sign_in" class="btn btn-success nav-link">Sign In</a>
       <% } %>
     </div>
-
   </nav>
   <div class="container">

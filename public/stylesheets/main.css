@@ -1,12 +1,10 @@
-a.nav-link, #username {
-    font-weight: bolder;
-    color: silver;
-    padding-left:30px;
-    padding-right:30px;
+a.nav-link {
+  font-weight: bolder;
+  color: silver;
+  padding-left:30px;
+  padding-right:30px;
+  margin-right:20px;
   }
-
-
-
 
 body{
   -webkit-transform: scale(1);
@@ -14,7 +12,7 @@ body{
   transform: scale(1);
   border-radius: 35px;
   border: 15px solid #b8c0ad;
-  padding: 20px;
+  padding: 30px;
   width: 1500px;
   height: auto;
   margin-left: 200px;
@@ -24,7 +22,6 @@ body{
 h1 {
   color:  rgb(53, 155, 155);
 }
-
 
 .card {
   height:auto;
@@ -39,3 +36,4 @@ h1 {
   margin: 10px;
   margin-bottom: 30px;
 }
+
