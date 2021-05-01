@@ -43,6 +43,9 @@ app.delete("/sign_out", (req, res) => {
   res.redirect("/")
 })
 
+
+
+
 const COOKIE_MAX_AGE = 1000 * 60 * 60 * 24 * 7
 app.post("/sign_in", (req, res) => {
   console.log(req.body)
