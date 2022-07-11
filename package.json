@@ -2,7 +2,7 @@
   "name": "quiz_1_second",
   "version": "1.0.0",
   "description": "",
-  "main": "index.ejs",
+  "main": "index.js",
   "scripts": {
     "start": "nodemon app.js",
     "db:create": "createdb --echo cluckr_2_development",
