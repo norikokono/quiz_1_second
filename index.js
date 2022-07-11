@@ -60,8 +60,7 @@ app.post("/sign_in", (req, res) => {
 
 app.use("/clucks", clucksRouter)
 
-const PORT = process.env.PORT || 3000
-// const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 5000
 const ADDRESS = "localhost"
 const ENVIRONMENT = app.get('env') 
 
