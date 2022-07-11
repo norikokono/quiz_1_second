@@ -60,7 +60,17 @@ app.post("/sign_in", (req, res) => {
 
 app.use("/clucks", clucksRouter)
 
-const PORT = process.env.PORT || 5000
+const PORT = process.env.PORT || 3000
+// const PORT = process.env.PORT || 5000
+
+//For avoiding Heroku $PORT error
+app.get('/', function(request, response) {
+    var result = 'App is running'
+    response.send(result);
+}).listen(app.get('port'), function() {
+    console.log('App is running, server is listening on port ', app.get('port'));
+});
+
 const ADDRESS = "localhost"
 const ENVIRONMENT = app.get('env') 
 
