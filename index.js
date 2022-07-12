@@ -65,7 +65,8 @@ const PORT = process.env.PORT || 3000
 
 // const ADDRESS = "localhost"
 // use alternate localhost and the port Heroku assigns to $PORT
-const ADDRESS = '0.0.0.0';
+const ADDRESS = '127.0.0.1';
+
 const ENVIRONMENT = app.get('env') 
 
 app.listen(PORT, ADDRESS, () => {
