@@ -57,10 +57,19 @@ app.post("/sign_in", (req, res) => {
 
 app.use("/clucks", clucksRouter)
 
+<<<<<<< HEAD:app.js
 // const PORT = process.env.PORT || 3000
 const PORT = process.env.PORT || 8080
 
 const ADDRESS = "localhost"
+=======
+const PORT = process.env.PORT || 5000
+
+// const ADDRESS = "localhost"
+// use alternate localhost and the port Heroku assigns to $PORT
+const ADDRESS = '127.0.0.1';
+
+>>>>>>> 69133aba84606e15b3d3d5d2d4eda7500567b590:index.js
 const ENVIRONMENT = app.get('env') 
 
 app.listen(PORT, ADDRESS, () => {

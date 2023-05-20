@@ -8,7 +8,6 @@ router.get("/", (req, res) => {
     .select()
     .table("clucks")
     .then(clucks => {
-      // res.render("index", { quacks: quacks })
 
       res.render("index", { 
         clucks,
@@ -105,5 +104,6 @@ router.get("/", (req, res) => {
       res.redirect("/sign_in")
     }
   })
+
 
 module.exports = router
